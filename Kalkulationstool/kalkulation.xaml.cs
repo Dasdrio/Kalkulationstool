@@ -16,13 +16,20 @@ using System.Windows.Shapes;
 namespace Kalkulationstool
 {
     /// <summary>
-    /// Interaktionslogik für Vorwärts.xaml
+    /// Interaktionslogik für kalkulation.xaml
     /// </summary>
-    public partial class Vorwärts : Page
+    public partial class kalkulation : Page
     {
-        public Vorwärts()
+        MainWindow main_window;
+        public kalkulation(MainWindow main_window)
         {
+            this.main_window = main_window;
             InitializeComponent();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            main_window.change_paige_to_main_page();
         }
     }
 }

@@ -6,10 +6,4 @@
         xmlns:local="clr-namespace:Kalkulationstool"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <Button Content="Button" Margin="100,95,563,275"/>
-        <Button Content="Button" Margin="563,95,100,275"/>
-        <Button Content="Button" Margin="332,240,332,130"/>
-
-    </Grid>
 </Window>

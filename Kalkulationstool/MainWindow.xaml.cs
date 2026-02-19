@@ -19,6 +19,35 @@ namespace Kalkulationstool
         public MainWindow()
         {
             InitializeComponent();
+            change_paige_to_main_page();
+        }
+
+        public void change_paige_to_kalkulation()
+        {
+            kalkulation page = new kalkulation(this);
+            this.Content = page;
+        }
+        public void change_paige_to_main_page()
+        {
+            main_page page = new main_page(this);
+            this.Content = page;
+        }
+        public void change_paige_to_vorwaerts()
+        {
+            vorwaerts page = new vorwaerts(this);
+            this.Content = page;
+        }
+
+        public void change_paige_to_rueckwaerts()
+        {
+            rueckwaerts page = new rueckwaerts(this);
+            this.Content = page;
+        }
+
+        public void change_paige_to_differenz()
+        {
+            differenz page = new differenz(this);
+            this.Content = page;
         }
     }
 }
