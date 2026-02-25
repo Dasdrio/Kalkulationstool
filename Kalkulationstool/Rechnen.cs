@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Kalkulationstool
 {
-    class Rechnen
+    public class Rechnen
     {
         private double listeneinkaufspreis;
         private double lieferrabatt;
@@ -39,7 +39,8 @@ namespace Kalkulationstool
         /// <param name="vertreterprovision"></param>
         /// <param name="kundenrabatt"></param>
         /// <param name="umsatzsteuer"></param>
-        public Rechnen(double listeneinkaufspreis, double lieferrabatt, double lieferskonto, double bezugskosten, double handlungskostenzuschlag, double gewinnzuschlag, double kundenskonto, double vertreterprovision, double kundenrabatt, double umsatzsteuer)
+        /// <param name="bruttoverkaufspreis"></param>
+        public Rechnen(double listeneinkaufspreis, double lieferrabatt, double lieferskonto, double bezugskosten, double handlungskostenzuschlag, double gewinnzuschlag, double kundenskonto, double vertreterprovision, double kundenrabatt, double umsatzsteuer, double bruttoverkaufspreis)
         {
             this.listeneinkaufspreis = listeneinkaufspreis;
             this.lieferrabatt = lieferrabatt;
@@ -57,7 +58,7 @@ namespace Kalkulationstool
             this.kundenrabatt = kundenrabatt;
             this.nettoverkaufspreis = 0;
             this.umsatzsteuer = umsatzsteuer;
-            this.bruttoverkaufspreis = 0;
+            this.bruttoverkaufspreis = bruttoverkaufspreis;
         }
         
         public void vorwaertskalkulation(Boolean dif)

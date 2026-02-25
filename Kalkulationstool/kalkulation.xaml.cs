@@ -21,8 +21,10 @@ namespace Kalkulationstool
     public partial class kalkulation : Page
     {
         MainWindow main_window;
-        public kalkulation(MainWindow main_window)
+        Rechnen rechnung;
+        public kalkulation(MainWindow main_window, Rechnen rechnung)
         {
+            this.rechnung = rechnung;
             this.main_window = main_window;
             InitializeComponent();
         }

@@ -22,9 +22,9 @@ namespace Kalkulationstool
             change_paige_to_main_page();
         }
 
-        public void change_paige_to_kalkulation()
+        public void change_paige_to_kalkulation(Rechnen rechnung)
         {
-            kalkulation page = new kalkulation(this);
+            kalkulation page = new kalkulation(this, rechnung);
             this.Content = page;
         }
         public void change_paige_to_main_page()
