@@ -26,5 +26,10 @@ namespace Kalkulationstool
             InitializeComponent();
             this.main_window = main_window;
         }
+
+        private void Rechnung_Click(object sender, RoutedEventArgs e)
+        {
+            main_window.change_paige_to_kalkulation();
+        }
     }
 }

@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\fockenda\\Documents\\GitHub\\Kalkulationstool\\Kalkulationstool\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E485DE30-C5EC-4E98-980B-D39DEEA0E1C0}|Kalkulationstool.csproj|c:\\users\\fockenda\\documents\\github\\kalkulationstool\\kalkulationstool\\kalkulation.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E485DE30-C5EC-4E98-980B-D39DEEA0E1C0}|Kalkulationstool.csproj|solutionrelative:kalkulation.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E485DE30-C5EC-4E98-980B-D39DEEA0E1C0}|Kalkulationstool.csproj|c:\\users\\fockenda\\documents\\github\\kalkulationstool\\kalkulationstool\\rechnen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E485DE30-C5EC-4E98-980B-D39DEEA0E1C0}|Kalkulationstool.csproj|solutionrelative:rechnen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E485DE30-C5EC-4E98-980B-D39DEEA0E1C0}|Kalkulationstool.csproj|c:\\users\\fockenda\\documents\\github\\kalkulationstool\\kalkulationstool\\vorwaerts.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E485DE30-C5EC-4E98-980B-D39DEEA0E1C0}|Kalkulationstool.csproj|solutionrelative:vorwaerts.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E485DE30-C5EC-4E98-980B-D39DEEA0E1C0}|Kalkulationstool.csproj|c:\\users\\fockenda\\documents\\github\\kalkulationstool\\kalkulationstool\\differenz.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E485DE30-C5EC-4E98-980B-D39DEEA0E1C0}|Kalkulationstool.csproj|solutionrelative:differenz.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E485DE30-C5EC-4E98-980B-D39DEEA0E1C0}|Kalkulationstool.csproj|c:\\users\\fockenda\\documents\\github\\kalkulationstool\\kalkulationstool\\rueckwaerts.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E485DE30-C5EC-4E98-980B-D39DEEA0E1C0}|Kalkulationstool.csproj|solutionrelative:rueckwaerts.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +31,50 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "kalkulation.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\fockenda\\Documents\\GitHub\\Kalkulationstool\\Kalkulationstool\\kalkulation.xaml.cs",
-              "RelativeDocumentMoniker": "kalkulation.xaml.cs",
-              "ToolTip": "C:\\Users\\fockenda\\Documents\\GitHub\\Kalkulationstool\\Kalkulationstool\\kalkulation.xaml.cs",
-              "RelativeToolTip": "kalkulation.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAA0AAAAAAAAAA==",
+              "Title": "Rechnen.cs",
+              "DocumentMoniker": "C:\\Users\\fockenda\\Documents\\GitHub\\Kalkulationstool\\Kalkulationstool\\Rechnen.cs",
+              "RelativeDocumentMoniker": "Rechnen.cs",
+              "ToolTip": "C:\\Users\\fockenda\\Documents\\GitHub\\Kalkulationstool\\Kalkulationstool\\Rechnen.cs",
+              "RelativeToolTip": "Rechnen.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAQwFMAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-19T10:28:06.98Z",
+              "WhenOpened": "2026-02-25T09:11:18.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "differenz.xaml",
+              "DocumentMoniker": "C:\\Users\\fockenda\\Documents\\GitHub\\Kalkulationstool\\Kalkulationstool\\differenz.xaml",
+              "RelativeDocumentMoniker": "differenz.xaml",
+              "ToolTip": "C:\\Users\\fockenda\\Documents\\GitHub\\Kalkulationstool\\Kalkulationstool\\differenz.xaml",
+              "RelativeToolTip": "differenz.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-25T09:02:34.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "rueckwaerts.xaml",
+              "DocumentMoniker": "C:\\Users\\fockenda\\Documents\\GitHub\\Kalkulationstool\\Kalkulationstool\\rueckwaerts.xaml",
+              "RelativeDocumentMoniker": "rueckwaerts.xaml",
+              "ToolTip": "C:\\Users\\fockenda\\Documents\\GitHub\\Kalkulationstool\\Kalkulationstool\\rueckwaerts.xaml",
+              "RelativeToolTip": "rueckwaerts.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-25T09:02:14.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "vorwaerts.xaml",
+              "DocumentMoniker": "C:\\Users\\fockenda\\Documents\\GitHub\\Kalkulationstool\\Kalkulationstool\\vorwaerts.xaml",
+              "RelativeDocumentMoniker": "vorwaerts.xaml",
+              "ToolTip": "C:\\Users\\fockenda\\Documents\\GitHub\\Kalkulationstool\\Kalkulationstool\\vorwaerts.xaml",
+              "RelativeToolTip": "vorwaerts.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-19T10:29:12.786Z",
               "EditorCaption": ""
             }
           ]

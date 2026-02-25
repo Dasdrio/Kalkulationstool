@@ -31,5 +31,6 @@ namespace Kalkulationstool
         {
             main_window.change_paige_to_kalkulation();
         }
+
     }
 }
