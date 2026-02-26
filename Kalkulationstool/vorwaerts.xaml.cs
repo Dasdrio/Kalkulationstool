@@ -26,12 +26,11 @@ namespace Kalkulationstool
             this.main_window = main_window;
             InitializeComponent();
         }
-
         private void Rechnung_Click(object sender, RoutedEventArgs e)
         {
             bool apply = true;
             TextBox[] textboxen = new TextBox[] {TB_listeneinkaufspreis, TB_lieferrabatt, TB_lieferskonto, TB_bezugskosten, TB_Handlungskosten, TB_gewinn, TB_Kundenskonto, TB_Provision, TB_Kundenrabatt, TB_steuer};
-            List<double> values = new List<double>();
+            List<decimal> values = new List<decimal>();
             foreach (TextBox textBox in textboxen)
             {
                 if (textBox.Text.Length == 0)
@@ -43,7 +42,7 @@ namespace Kalkulationstool
                 {
                     try
                     {
-                        values.Add(double.Parse(textBox.Text));
+                        values.Add(decimal.Parse(textBox.Text));
                     }
                     catch (Exception ex)
                     {
@@ -52,8 +51,13 @@ namespace Kalkulationstool
                     }
                 }
             }
-            Rechnen rechnung = new Rechnen(values[0], values[1], values[2], values[3], values[4], values[5], values[6], values[7], values[8], values[9], 0);
-            if(apply) main_window.change_paige_to_kalkulation(rechnung);
+            if (apply)
+            {
+                Rechnen rechnung = new Rechnen(values[0], values[1], values[2], values[3], values[4], values[5], values[6], values[7], values[8], values[9], 0);
+                rechnung.vorwaertskalkulation(false);
+                main_window.change_paige_to_kalkulation(rechnung);
+            }
+            else MainWindow.show_error_message();
         }
 
     }

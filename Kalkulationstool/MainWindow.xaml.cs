@@ -49,5 +49,16 @@ namespace Kalkulationstool
             differenz page = new differenz(this);
             this.Content = page;
         }
+
+        public static void show_error_message()
+        {
+            String message_box_text = "Es wurde in eine oder mehreren Eingabefeldern kein gültiger Wert gefunden!\nnur Zahlenwerte sind erlaubt 0 eintragen für nicht vorhandene Werte";
+            String caption = "Eingabe Fehler";
+            MessageBoxButton button = MessageBoxButton.YesNoCancel;
+            MessageBoxImage icon = MessageBoxImage.Error;
+            MessageBoxResult result;
+
+            result = MessageBox.Show(message_box_text, caption, button, icon, MessageBoxResult.Yes);
+        }
     }
 }
