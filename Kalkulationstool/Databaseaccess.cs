@@ -36,4 +36,28 @@ public class Databasaccess
             return instance;    
         }
     }
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="listeneinkaufspreis"></param>
+    /// <param name="lieferrabatt"></param>
+    /// <param name="zieleinkaufspreis"></param>
+    /// <param name="lieferskonto"></param>
+    /// <param name="bareinkaufspreis"></param>
+    /// <param name="bezugskosten"></param>
+    /// <param name="bezugspreis"></param>
+    /// <param name="handlungskostenzuschlag"></param>
+    /// <param name="selbskosten"></param>
+    /// <param name="gewinnzuschlag"></param>
+    /// <param name="barverkaufspreis"></param>
+    /// <param name="kundenskonto_und_vertreterprovision"></param>
+    /// <param name="zielverkaufspreis"></param>
+    /// <param name="kundenrabatt"></param>
+    /// <param name="nettoverkaufspreis"></param>
+    /// <param name="umsatzsteuer"></param>
+    /// <param name="bruttoverkaufspreis"></param>
+    public static void insert_data(decimal listeneinkaufspreis,decimal lieferrabatt, decimal zieleinkaufspreis, decimal lieferskonto, decimal bareinkaufspreis, decimal bezugskosten, decimal bezugspreis, decimal handlungskostenzuschlag, decimal selbskosten, decimal gewinnzuschlag,decimal barverkaufspreis, decimal kundenskonto_und_vertreterprovision,decimal zielverkaufspreis, decimal kundenrabatt, decimal nettoverkaufspreis, decimal umsatzsteuer, decimal bruttoverkaufspreis)
+    {
+        
+    }
 }
