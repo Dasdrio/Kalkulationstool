@@ -28,7 +28,6 @@ namespace Kalkulationstool
             this.main_window = main_window;
             InitializeComponent();
             show_results();
-            write_to_database();
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -54,10 +53,20 @@ namespace Kalkulationstool
             this.Nettoverkaufspreis.Text = Math.Round(rechnung.get_nettoverkaufspreis(), 2).ToString();
             this.Umsatzsteuer.Text = Math.Round(rechnung.get_umsatzsteuer(), 2).ToString();
             this.Bruttoverkaufspreis.Text = Math.Round(rechnung.get_bruttoverkaufspreis(), 2).ToString();
+            write_to_database();
         }
         private void write_to_database()
         {
-            Databasaccess.
+            try
+            {
+                Databaseaccess.get_instance();
+                Databaseaccess.insert_data(rechnung.get_listeneinkaufspreis(), rechnung.get_lieferrabatt(), rechnung.get_zieleinkaufspreis(), rechnung.get_lieferskonto(), rechnung.get_bareinkaufspreis(), rechnung.get_bezugskosten(), rechnung.get_bezugspreis(), rechnung.get_handlungskostenzuschlag(), rechnung.get_selbskosten(), rechnung.get_gewinnzuschlag(), rechnung.get_barverkaufspreis(), rechnung.get_kundenskonto_und_vertreterprovision(), rechnung.get_zielverkaufspreis(), rechnung.get_kundenrabatt(), rechnung.get_nettoverkaufspreis(), rechnung.get_umsatzsteuer(), rechnung.get_bruttoverkaufspreis());
+                Databaseaccess.close_database();
+            }
+            catch (Exception e) {
+                MainWindow.show_error_message(e.ToString());
+            }
+            
         }
     }
 }

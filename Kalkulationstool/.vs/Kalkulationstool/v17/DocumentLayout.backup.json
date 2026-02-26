@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\fockenda\\Documents\\GitHub\\Kalkulationstool\\Kalkulationstool\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E485DE30-C5EC-4E98-980B-D39DEEA0E1C0}|Kalkulationstool.csproj|c:\\users\\fockenda\\documents\\github\\kalkulationstool\\kalkulationstool\\databaseaccess.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{E485DE30-C5EC-4E98-980B-D39DEEA0E1C0}|Kalkulationstool.csproj|solutionrelative:databaseaccess.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E485DE30-C5EC-4E98-980B-D39DEEA0E1C0}|Kalkulationstool.csproj|c:\\users\\fockenda\\documents\\github\\kalkulationstool\\kalkulationstool\\kalkulation.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E485DE30-C5EC-4E98-980B-D39DEEA0E1C0}|Kalkulationstool.csproj|solutionrelative:kalkulation.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E485DE30-C5EC-4E98-980B-D39DEEA0E1C0}|Kalkulationstool.csproj|c:\\users\\fockenda\\documents\\github\\kalkulationstool\\kalkulationstool\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E485DE30-C5EC-4E98-980B-D39DEEA0E1C0}|Kalkulationstool.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E485DE30-C5EC-4E98-980B-D39DEEA0E1C0}|Kalkulationstool.csproj|c:\\users\\fockenda\\documents\\github\\kalkulationstool\\kalkulationstool\\vorwaerts.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E485DE30-C5EC-4E98-980B-D39DEEA0E1C0}|Kalkulationstool.csproj|solutionrelative:vorwaerts.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E485DE30-C5EC-4E98-980B-D39DEEA0E1C0}|Kalkulationstool.csproj|c:\\users\\fockenda\\documents\\github\\kalkulationstool\\kalkulationstool\\databaseaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E485DE30-C5EC-4E98-980B-D39DEEA0E1C0}|Kalkulationstool.csproj|solutionrelative:databaseaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,30 +26,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Databaseaccess.cs",
-              "DocumentMoniker": "C:\\Users\\fockenda\\Documents\\GitHub\\Kalkulationstool\\Kalkulationstool\\Databaseaccess.cs",
-              "RelativeDocumentMoniker": "Databaseaccess.cs",
-              "ToolTip": "C:\\Users\\fockenda\\Documents\\GitHub\\Kalkulationstool\\Kalkulationstool\\Databaseaccess.cs",
-              "RelativeToolTip": "Databaseaccess.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "vorwaerts.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\fockenda\\Documents\\GitHub\\Kalkulationstool\\Kalkulationstool\\vorwaerts.xaml.cs",
+              "RelativeDocumentMoniker": "vorwaerts.xaml.cs",
+              "ToolTip": "C:\\Users\\fockenda\\Documents\\GitHub\\Kalkulationstool\\Kalkulationstool\\vorwaerts.xaml.cs",
+              "RelativeToolTip": "vorwaerts.xaml.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-26T11:57:04.672Z",
+              "WhenOpened": "2026-02-26T13:07:24.478Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\fockenda\\Documents\\GitHub\\Kalkulationstool\\Kalkulationstool\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\fockenda\\Documents\\GitHub\\Kalkulationstool\\Kalkulationstool\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwDUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T13:04:18.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Databaseaccess.cs",
+              "DocumentMoniker": "C:\\Users\\fockenda\\Documents\\GitHub\\Kalkulationstool\\Kalkulationstool\\Databaseaccess.cs",
+              "RelativeDocumentMoniker": "Databaseaccess.cs",
+              "ToolTip": "C:\\Users\\fockenda\\Documents\\GitHub\\Kalkulationstool\\Kalkulationstool\\Databaseaccess.cs",
+              "RelativeToolTip": "Databaseaccess.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAowHAAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-26T13:00:05.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "kalkulation.xaml.cs",
               "DocumentMoniker": "C:\\Users\\fockenda\\Documents\\GitHub\\Kalkulationstool\\Kalkulationstool\\kalkulation.xaml.cs",
               "RelativeDocumentMoniker": "kalkulation.xaml.cs",
               "ToolTip": "C:\\Users\\fockenda\\Documents\\GitHub\\Kalkulationstool\\Kalkulationstool\\kalkulation.xaml.cs",
               "RelativeToolTip": "kalkulation.xaml.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAgwDsAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAADwv0IAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-26T10:31:26.985Z",
               "EditorCaption": ""

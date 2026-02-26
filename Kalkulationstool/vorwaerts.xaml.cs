@@ -57,7 +57,7 @@ namespace Kalkulationstool
                 rechnung.vorwaertskalkulation(false);
                 main_window.change_paige_to_kalkulation(rechnung);
             }
-            else MainWindow.show_error_message();
+            else MainWindow.show_error_message("Falsche eingabe");
         }
 
     }

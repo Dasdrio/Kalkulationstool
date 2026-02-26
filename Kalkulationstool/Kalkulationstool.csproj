@@ -9,11 +9,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Databaseaccess.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="Databaseaccess.cs" />
+    <PackageReference Include="DynamicData" Version="9.4.1" />
+    <PackageReference Include="MySqlConnector" Version="2.5.0" />
   </ItemGroup>
 
 </Project>

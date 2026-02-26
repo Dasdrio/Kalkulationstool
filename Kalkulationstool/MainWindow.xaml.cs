@@ -50,10 +50,10 @@ namespace Kalkulationstool
             this.Content = page;
         }
 
-        public static void show_error_message()
+        public static void show_error_message(String ex)
         {
-            String message_box_text = "Es wurde in eine oder mehreren Eingabefeldern kein gültiger Wert gefunden!\nnur Zahlenwerte sind erlaubt 0 eintragen für nicht vorhandene Werte";
-            String caption = "Eingabe Fehler";
+            String message_box_text =ex;
+            String caption = "Fehler";
             MessageBoxButton button = MessageBoxButton.YesNoCancel;
             MessageBoxImage icon = MessageBoxImage.Error;
             MessageBoxResult result;
