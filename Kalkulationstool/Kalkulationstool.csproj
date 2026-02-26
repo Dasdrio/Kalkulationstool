@@ -8,4 +8,12 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Databaseaccess.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Databaseaccess.cs" />
+  </ItemGroup>
+
 </Project>

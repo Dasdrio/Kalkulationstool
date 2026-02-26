@@ -57,7 +57,7 @@ namespace Kalkulationstool
         }
         private void write_to_database()
         {
-
+            
         }
     }
 }
