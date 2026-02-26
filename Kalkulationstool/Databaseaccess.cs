@@ -14,6 +14,7 @@ public class Databasaccess
             Console.WriteLine(ex.ToString());
         }
     }
+    
     /// <summary>
     /// Closes and destroys the instance of the database
     /// </summary>
@@ -36,8 +37,9 @@ public class Databasaccess
             return instance;    
         }
     }
+    
     /// <summary>
-    /// 
+    /// Inserts the Values into the database
     /// </summary>
     /// <param name="listeneinkaufspreis"></param>
     /// <param name="lieferrabatt"></param>
@@ -58,6 +60,33 @@ public class Databasaccess
     /// <param name="bruttoverkaufspreis"></param>
     public static void insert_data(decimal listeneinkaufspreis,decimal lieferrabatt, decimal zieleinkaufspreis, decimal lieferskonto, decimal bareinkaufspreis, decimal bezugskosten, decimal bezugspreis, decimal handlungskostenzuschlag, decimal selbskosten, decimal gewinnzuschlag,decimal barverkaufspreis, decimal kundenskonto_und_vertreterprovision,decimal zielverkaufspreis, decimal kundenrabatt, decimal nettoverkaufspreis, decimal umsatzsteuer, decimal bruttoverkaufspreis)
     {
-        
+        try{
+            string procedure = "sp_insert_data";
+            MySqlCommand command = new MySqlCommand(procedure, mysql_connection);
+            command.CommandType =CommandType.StoredProcedure;
+
+            command.Parameters.AddWithValue("p_listeneinkaufspreis",listeneinkaufspreis);
+            command.Parameters.AddWithValue("p_lieferrabatt",lieferrabatt);
+            command.Parameters.AddWithValue("p_zieleinkaufspreis",zieleinkaufspreis);
+            command.Parameters.AddWithValue("p_lieferskonto",lieferskonto);
+            command.Parameters.AddWithValue("p_bareinkaufspreis",bareinkaufspreis);
+            command.Parameters.AddWithValue("p_bezugskosten",bezugskosten);
+            command.Parameters.AddWithValue("p_bezugspreis",bezugspreis);
+            command.Parameters.AddWithValue("p_handlungskostenzuschlag",handlungskostenzuschlag);
+            command.Parameters.AddWithValue("p_selbskosten",selbskosten);
+            command.Parameters.AddWithValue("p_gewinnzuschlag",gewinnzuschlag);
+            command.Parameters.AddWithValue("p_barverkaufspreis",barverkaufspreis);
+            command.Parameters.AddWithValue("p_kundenskonto_und_vertreterprovision",kundenskonto_und_vertreterprovision);
+            command.Parameters.AddWithValue("p_zielverkaufspreis",zielverkaufspreis);
+            command.Parameters.AddWithValue("p_kundenrabatt",kundenrabatt);
+            command.Parameters.AddWithValue("p_nettoverkaufspreis",nettoverkaufspreis);
+            command.Parameters.AddWithValue("p_umsatzsteuer",umsatzsteuer);
+            command.Parameters.AddWithValue("p_bruttoverkaufspreis",bruttoverkaufspreis);
+
+            command.ExecuteNonQuery();
+        }
+        catch(Exception ex){
+            Console.WriteLine(ex.ToString());
+        }
     }
 }
