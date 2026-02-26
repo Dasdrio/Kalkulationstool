@@ -95,11 +95,11 @@ namespace Kalkulationstool
                 command.Parameters.AddWithValue("p_bareinkaufspreis", bareinkaufspreis);
                 command.Parameters.AddWithValue("p_bezugskosten", bezugskosten);
                 command.Parameters.AddWithValue("p_bezugspreis", bezugspreis);
-                command.Parameters.AddWithValue("p_handlungskostenzuschlag", handlungskostenzuschlag);
-                command.Parameters.AddWithValue("p_selbskosten", selbskosten);
+                command.Parameters.AddWithValue("p_handlungskosten", handlungskostenzuschlag);
+                command.Parameters.AddWithValue("p_selbstkosten", selbskosten);
                 command.Parameters.AddWithValue("p_gewinnzuschlag", gewinnzuschlag);
                 command.Parameters.AddWithValue("p_barverkaufspreis", barverkaufspreis);
-                command.Parameters.AddWithValue("p_kundenskonto_und_vertreterprovision", kundenskonto_und_vertreterprovision);
+                command.Parameters.AddWithValue("p_kundenskonto_vertreterprovision", kundenskonto_und_vertreterprovision);
                 command.Parameters.AddWithValue("p_zielverkaufspreis", zielverkaufspreis);
                 command.Parameters.AddWithValue("p_kundenrabatt", kundenrabatt);
                 command.Parameters.AddWithValue("p_nettoverkaufspreis", nettoverkaufspreis);
